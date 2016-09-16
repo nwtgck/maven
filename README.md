@@ -24,3 +24,10 @@ Finish!
 
 Library for Processing v2.0: processing2-arduino.zip (Updated 6 Nov. 2013) 
 from http://playground.arduino.cc/Interfacing/Processing
+
+You can import in your Scala or Java file the followings
+
+```scala
+import cc.arduino._
+import org.firmata._
+```
