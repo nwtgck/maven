@@ -3,3 +3,8 @@ scala:
    - 2.11.8
 script:
   - cd test/sbt-project-for-test/ && sbt run
+
+notifications:
+  email: false
+  slack:
+    secure: "XAYdGEgMmYlzRo3ihhhApXXbcMjOLZ6Y0+9G3IV701/yDJSrQxWizmwWutP80sBeTPceN5ydd1WJbnrNEAgKecJN8u9mQ+6U83owdq6Ezs5eGEicN7tmn0+mc5MGqQA3ae541OfRhmNgc01nrclrNwwi4jyshv3/EknZLFe/TWgnAtBujc7Gw7sXp4vl01iGIB30ee4M/mF9dZQHUWVA8ZHpqCS3P8xucC0suwOk8fcSu/FzWhc37B+cJk/568YAo7xcRGlJx/dby+sSn9Utn+8zXKQX3nRoSzX29223qclx9xjmjLWEWTsEBmFZsMV5qocAiKbTnNTZZVxnzZHPGu/t+/Fmfh6FWBV8LX3P0BYs3nk1A8w5wP0ds6spvyjzReRQfLrlT+yRHqKxPdFJqNfpCvQT+aZk7NVEt0UKJhMsEXneyy6GUBB64IC5B/3KYeyuvwYo9KdQhXQQtZyrt4oX33i+/mATUnkILZjVRDAhpVo3limWM5xnTsN0JaTf4NAqL7i2NM+UnIq4QzB/RcxK7BZHuByxsa1oRHc/LPyTPJQkFN5uSq6nhUl6Ntz0NVtqAxgIbqGS9I+XEw11qNmrJaaBOtuup6c1tQO4ThbA1jtsiGmiXlUJuxIhBcmA/MGCEYtFrFp/gbPfJs33Z97irGx51MitPD5IIdOlZvs="
