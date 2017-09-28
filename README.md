@@ -13,7 +13,7 @@ resolvers += "nwtgck's GitHub Maven Repository" at "https://github.com/nwtgck/ma
 Step2. Add the following code in your `build.sbt`
 
 ```scala
-libraryDependencies += "arduino" % "core_2.11.8" % "1.6.0" //  Arduino/Firmata
+libraryDependencies += "arduino" % "core" % "1.6.0" // Arduino/Firmata
 ```
 
 or
