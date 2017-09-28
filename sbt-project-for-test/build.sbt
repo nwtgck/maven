@@ -9,8 +9,9 @@ val branchName: String = sys.env("TRAVIS_BRANCH")
 
 resolvers += "nwtgck's GitHub Maven Repository" at s"https://github.com/nwtgck/maven/raw/${branchName}"
 
-// https://mvnrepository.com/artifact/org.processing/core
-libraryDependencies += "org.processing" % "core" % "3.3.5"
 
-// from nwtgck/maven
+// Add dependencies (these are test to confirm whether import is successful or not)
+libraryDependencies += "arduino" % "core_2.11.8" % "1.6.0"
+libraryDependencies += "net.sf.bluecove" % "bluecove_2.11.8" % "2.1.1"
+libraryDependencies += "net.sf.bluecove" % "bluecove_2.11.8" % "2.1.1-SNAPSHOT"
 libraryDependencies += "org.clojars.originalsurfmex.processing" % "jogl-all-natives-macosx-universal" % "2.1"
