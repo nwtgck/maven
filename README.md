@@ -1,4 +1,5 @@
 # Github hosted Maven Repository
+[![Build Status](https://travis-ci.org/nwtgck/maven.svg?branch=master)](https://travis-ci.org/nwtgck/maven)
 
 A maven repository providing libraries which is not provided https://mvnrepository.com.
 
