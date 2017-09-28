@@ -19,3 +19,8 @@ libraryDependencies += "org.processing" % "core" % "3.3.5"
 // from nwtgck/maven
 libraryDependencies += "org.clojars.originalsurfmex.processing" % "jogl-all-natives-macosx-universal" % "2.1"
 EOS
+
+
+echo "=== START AUTO-GENERATED build.sbt ===="
+cat sbt-project-for-test/build.sbt
+echo "=== END   AUTO-GENERATED build.sbt ===="
