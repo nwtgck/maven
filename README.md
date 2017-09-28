@@ -29,6 +29,12 @@ or
 libraryDependencies += "org.clojars.originalsurfmex.processing" % "jogl-all-natives-macosx-universal" % "2.1"
 ```
 
+or
+
+```scala
+libraryDependencies += "org.jogamp.jogl" % "jogl-all-natives-macosx-universal" % "2.3.2"
+```
+
 Done!
 
 ## Repositories
