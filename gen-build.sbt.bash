@@ -1,6 +1,6 @@
 #! /bin/bash
 
-branch_name=`git branch | grep \* | cut -d ' ' -f2`
+# $TRAVIS_BRANCH from: https://graysonkoonce.com/getting-the-current-branch-name-during-a-pull-request-in-travis-ci/
 
 cat <<EOS > sbt-project-for-test/build.sbt
 name := "sbt-project-for-test"
@@ -19,6 +19,6 @@ libraryDependencies += "org.clojars.originalsurfmex.processing" % "jogl-all-nati
 EOS
 
 
-echo "=== START AUTO-GENERATED build.sbt ===="
+echo "====================== START AUTO-GENERATED build.sbt ======================"
 cat sbt-project-for-test/build.sbt
-echo "=== END   AUTO-GENERATED build.sbt ===="
+echo "====================== END   AUTO-GENERATED build.sbt ======================"
