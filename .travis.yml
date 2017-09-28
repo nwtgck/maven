@@ -1,0 +1,6 @@
+language: scala
+scala:
+   - 2.11.8
+script:
+  - ./gen-build.sbt.bash
+  - cd sbt-project-for-test/ && sbt run
