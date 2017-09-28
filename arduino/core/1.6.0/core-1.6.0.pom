@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>arduino</groupId>
-  <artifactId>core_2.11.8</artifactId>
+  <artifactId>core</artifactId>
   <version>1.6.0</version>
   <packaging>jar</packaging>
 
