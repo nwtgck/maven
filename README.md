@@ -35,6 +35,12 @@ or
 libraryDependencies += "org.jogamp.jogl" % "jogl-all-natives-macosx-universal" % "2.3.2"
 ```
 
+or
+
+```scala
+libraryDependencies += "controlp5" % "controlp5" % "2.2.5"
+```
+
 Done!
 
 ## Repositories
